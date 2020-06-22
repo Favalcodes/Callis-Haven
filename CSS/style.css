@@ -50,6 +50,13 @@ header .btn:hover {
     border-color: #ABC034;
     color: #ffffff;
 }
+
+.text-left {
+   background-color: #612B2B; 
+}
+.google {
+    display: flex;
+}
 /* Navbar */
 
 /* jumbotron */
@@ -257,6 +264,7 @@ footer {
         margin-bottom: 0;
     }
 }
+
 
 @media only screen and (max-width: 850px) {
     .jumbotron {
