@@ -1,0 +1,124 @@
+
+body{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+.thumbnail {
+    position: relative;
+}
+.image-overla{
+    position: relative;
+ 
+}
+.image-overla::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -18px;
+    width: 400px;
+    height: 280px;
+    z-index: -1;
+    background-color: rgba(215, 169, 154, 0.5);;
+}
+.image-overla::after{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    width: 490px;
+    height: 290px;
+    border: 2px white dashed;
+}
+
+.caption {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: white;
+    background:  #ABC034;
+    text-align: center;
+    border-radius: 4px;
+    margin:0;
+}
+.caption a{
+    font-size: 1.3rem;
+    padding: 1.3em 1em ;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pagination > li > a{
+    border:none ;
+    color:  #612B2B;
+    font-weight: 600;
+}
+.pagination >li> a:focus,
+.pagination > li > a:hover{
+    color: #ABC034;
+    border-color: #ABC034;
+    background-color: white;
+    border: 1px solid #ABC034;
+}
+.pagination > li.active > a{
+    color: #ABC034;
+    background: #fff;
+}
+
+.list-group .list-group-item {
+    margin: 3em 0;
+    color: #fff;
+    background-color: #612B2B;
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+    
+.list-group .list-group-item.all{
+    position: relative;
+}
+.list-group .list-group-item.all::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    width: 5px;
+    height: 5px;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+@media (max-width: 991.98px) { 
+ 
+    .image-overla{
+        position: relative;
+        
+    }
+    .image-overla::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: -10px;
+        width: 240px;
+        height: 200px;
+        z-index: -1;
+        background-color: rgba(215, 169, 154, 0.5);;
+    }
+    .image-overla::after{
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        width: 300px;
+        height: 180px;
+        border: 2px white dashed;
+    }
+ }
+
+ @media (max-width: 767.98px) {
+    .list-group .list-group-item:not(.all){
+        display: none;
+    }
+    .list-group .list-group-item.all::after{
+        display: none;
+    }
+ }
