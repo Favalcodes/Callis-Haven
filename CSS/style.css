@@ -51,8 +51,8 @@ header .btn:hover {
     color: #ffffff;
 }
 
-.text-left {
-   background-color: #612B2B; 
+.modal-header-center {
+   padding: 2px; 
 }
 .google {
     display: flex;
