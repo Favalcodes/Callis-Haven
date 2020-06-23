@@ -1,0 +1,176 @@
+/* UNIVERSAL STYLING */
+*
+    {
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 24px;
+    }
+/* END UNIVERSAL STYLING */
+
+
+/* NAVBAR STYLING */
+    header {
+        background: #612B2B;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navbar-brand span {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-link {
+        margin-right: 25px;
+        color: #ffffff;
+    }
+
+    header .btn {
+        background: #ABC034;
+        border-color: #ABC034;
+        color: #ffffff;
+    }
+
+    header .btn:hover {
+        background: #ABC034;
+        border-color: #ABC034;
+        color: #ffffff;
+    }
+/* END NAVBAR STYLING */
+
+
+/* ELEMENT WIDE STYLING */
+    section h2
+    {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        color: #282828;
+    }
+
+    section h3
+   {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        color: #282828;
+   }
+
+   section h4
+   {
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        color: #282828;
+   }
+
+    .property-price
+   {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ABC034;
+   }
+
+/* END ELEMENT WIDE STYLING */
+
+
+/* BUTTON STYLING */
+    #main-body .search-btn button
+    {
+        background: #ABC034;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .btn-outline-secondary
+    {
+        border-color: #ced4da;
+    }
+
+    #main-body .search-btn button
+    {
+        width: 50%;
+    }
+
+
+/* HERO AREA STYLING */
+   .title-area h1
+   {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+   }
+
+   .title-area button
+   {
+    background: #ABC034;
+    border-radius: 5px;
+    color: white;
+    border: none;
+   }
+
+   .title-area button:hover
+   {
+    background: transparent;
+    color: #ABC034;
+    border: 2px solid #ABC034;
+   }
+
+    .title-area button:focus
+   {
+    background-color: #ABC034;
+    border-color: #ABC034;
+    box-shadow: 0 0 0 0.2rem rgba(103, 111, 53, 0.5),
+   }
+
+    .btn-success:not(:disabled):not(.disabled):active
+    {
+    background-color: #ABC034;
+    border-color: #ABC034;
+    }
+}
+/* END HERO AREA STYLING */
+
+
+/* PRODUCT DETAILS SECTION */
+   .property-details p
+   {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+   }
+/* END PRODUCT DETAILS SECTION */
+
+
+/* Media Queries */
+@media only screen and (max-width: 850px)
+    {
+        #dropdownMenuButton {
+            font-size: .7em;
+            width: 50%;
+        }
+    }
+
+@media only screen and (max-width: 1274px)
+    {
+        img
+        {
+        width: 100%;
+        }
+    }
+
+    
